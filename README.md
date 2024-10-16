@@ -1,2 +1,4 @@
-# brecatlin.github.io
-CS-Capstone
+###### SOUTHERN NEW HAMPSHIRE CAPSTONE CS-499 
+#### Breanna C Smith
+
+#### <u>PROFESSIONAL SELF ASSESSMENT</u>
