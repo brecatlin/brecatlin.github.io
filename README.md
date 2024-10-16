@@ -22,7 +22,57 @@ For my ePortfolio, I have selected my Ingredient Scanner App, titled SHOP HEALTH
 
 #  CODE REVIEW
 
-PLEASE CLICK YOUTUBE ICON BELOW TO BE REDIRECTED:
+The goal of this code review is to take a closer look at the technical and design choices I made while developing my "SHOP HEALTHY!" app. I’ll be walking through key features like the login functionality and the overall user interface, showing how I’ve applied both software engineering and UI/UX design principles along the way.
+
+Throughout this review, I’ll highlight how the project has evolved, including decisions around security, usability, and how I’ve incorporated user feedback to make the app more user-friendly. This process not only demonstrates my technical abilities but also reflects my commitment to creating a smooth, enjoyable user experience while keeping the project focused and manageable.
+
+
+
+The goal of this code review is to take a closer look at the technical and design choices I made while developing my "SHOP HEALTHY!" app. I’ll be walking through key features like the login functionality and the overall user interface, showing how I’ve applied both software engineering and UI/UX design principles along the way.
+
+Throughout this review, I’ll highlight how the project has evolved, including decisions around security, usability, and how I’ve incorporated user feedback to make the app more user-friendly. This process not only demonstrates my technical abilities but also reflects my commitment to creating a smooth, enjoyable user experience while keeping the project focused and manageable.
+
+
+###### *Please click the YouTube icon below to be re-directed:*
 
 
 [![SHOPHEALTHY! CODE REVIEW](./YOUTUBE.jpg)](https://www.youtube.com/watch?v=-_XY2xgykmA)
+
+#  SOFTWARE DESIGN AND ENGINEERING
+
+The "SHOP HEALTHY!" app highlights my skills in both software design and engineering, bridging theory and implementation. Using Android Studio, I developed the app’s layout and core functionality, starting with a secure and responsive login screen. 
+
+A key focus was creating a secure login and sign-up system, with features like input validation, password masking, and an adaptable design for different devices, ensuring both functionality and user-friendliness.
+
+Throughout the project, I balanced aesthetics with usability, focusing on delivering a refined product by limiting the scope to core components like the login screen. The layout, built using Android’s XML structure with LinearLayout and CardView, resulted in a user-friendly and visually consistent interface.
+
+###### *Please click the link for Narrative*
+[SOFTWARE DESIGN AND EGINEERING NARRATIVE](https://github.com/brecatlin/ePortfolio/blob/main/SOFTWARE%20DESIGN%20AND%20ENGINNEERING/SOFTWARE%20DESIGN%20AND%20ENGINEERING_NARRATIVE.docx)
+
+#  ALGORITHMS AND DATA STRUCTURES
+
+In my CS-499 Capstone project, I focused on enhancing my SHOP HEALTHY! app, originally designed to help health-conscious consumers scan product barcodes and access ingredient information based on dietary preferences.
+
+The key improvement I made was optimizing the ingredient matching algorithm. Initially, the app used a list-based data structure, but I replaced it with a HashMap to allow for faster, constant-time lookups. By using a HashMap<String, String> (with the barcode as the key and ingredient information as the value), the app now retrieves data more efficiently, improving performance, especially with larger datasets.
+
+This enhancement not only speeds up the app but also taught me the importance of selecting the right data structures to optimize user experience and handle future scalability.
+
+###### *Please click the link for Narrative*
+[ALGORITHMS AND DATA STRUCTURE NARRATIVE](https://github.com/brecatlin/ePortfolio/blob/main/ALGORITHMS%20AND%20DATA%20STRUCTURES/ALGORITHMS%20AND%20DATA%20STRUCTURES_NARRATIVE.docx)
+
+#  DATABASES
+
+In my CS-499 Capstone project, I continued work on the SHOP HEALTHY! app, which helps users manage their dietary preferences and make informed grocery shopping decisions by scanning product barcodes. Building on my previous work in CS-319 UI/UX Design and CS-360 Mobile Architecture and Development, I chose to implement SQLite for the app’s database system due to its simplicity and efficiency.
+
+The app uses two databases:
+
+1.) **UserDB**, which manages user accounts, storing usernames, passwords, and dietary preferences (like vegan or gluten-free).
+
+2.) **IngredientDB**, which stores ingredient data associated with product barcodes. This allows the app to retrieve ingredient information quickly when a barcode is scanned.
+The system supports key functionality such as user account creation, login using credentials, and ingredient lookups based on scanned barcodes. A major focus was ensuring the app could handle efficient ingredient lookups from the database, which was critical to improving performance.
+
+The transition from the original version to this enhanced one significantly improved the app's functionality, particularly in handling multiple data types and optimizing the database queries for faster and more efficient barcode scanning and ingredient retrieval.
+
+
+###### *Please click the link for Narrative*
+[DATABASES](https://github.com/brecatlin/ePortfolio/blob/main/NARRATIVES/3_DATABASES.docx)
