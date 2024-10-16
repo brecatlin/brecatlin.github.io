@@ -1,4 +1,5 @@
 ###### SOUTHERN NEW HAMPSHIRE CAPSTONE CS-499 
-#### Breanna C Smith
+
 
 ####  *PROFESSIONAL SELF ASSESSMENT*
+#### Breanna C Smith
