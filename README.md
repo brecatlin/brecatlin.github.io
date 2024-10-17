@@ -46,6 +46,9 @@ A key focus was creating a secure login and sign-up system, with features like i
 
 Throughout the project, I balanced aesthetics with usability, focusing on delivering a refined product by limiting the scope to core components like the login screen. The layout, built using Android’s XML structure with LinearLayout and CardView, resulted in a user-friendly and visually consistent interface.
 
+##### *Please click link to view both the original and enhanced versions of the artifact.*
+[SOFTWARE DESIGN AND ENGINEERING](https://github.com/brecatlin/brecatlin.github.io/tree/main/SOFTWARE%20DESIGN%20AND%20ENGINNEERING)
+
 ###### *Please click the link for Narrative*
 [SOFTWARE DESIGN AND EGINEERING NARRATIVE](https://github.com/brecatlin/ePortfolio/blob/main/SOFTWARE%20DESIGN%20AND%20ENGINNEERING/SOFTWARE%20DESIGN%20AND%20ENGINEERING_NARRATIVE.docx)
 
@@ -56,6 +59,9 @@ In my CS-499 Capstone project, I focused on enhancing my SHOP HEALTHY! app, orig
 The key improvement I made was optimizing the ingredient matching algorithm. Initially, the app used a list-based data structure, but I replaced it with a HashMap to allow for faster, constant-time lookups. By using a HashMap<String, String> (with the barcode as the key and ingredient information as the value), the app now retrieves data more efficiently, improving performance, especially with larger datasets.
 
 This enhancement not only speeds up the app but also taught me the importance of selecting the right data structures to optimize user experience and handle future scalability.
+
+##### *Please click link to view both the original and enhanced versions of the artifact.*
+[ALGORITHMS AND DATA STRUCTURES](https://github.com/brecatlin/brecatlin.github.io/tree/main/ALGORITHMS%20AND%20DATA%20STRUCTURES)
 
 ###### *Please click the link for Narrative*
 [ALGORITHMS AND DATA STRUCTURE NARRATIVE](https://github.com/brecatlin/ePortfolio/blob/main/ALGORITHMS%20AND%20DATA%20STRUCTURES/ALGORITHMS%20AND%20DATA%20STRUCTURES_NARRATIVE.docx)
@@ -73,6 +79,10 @@ The system supports key functionality such as user account creation, login using
 
 The transition from the original version to this enhanced one significantly improved the app's functionality, particularly in handling multiple data types and optimizing the database queries for faster and more efficient barcode scanning and ingredient retrieval.
 
+##### *Please click link to view both the original and enhanced versions of the artifact.*
+[DATABASES](https://github.com/brecatlin/brecatlin.github.io/tree/main/DATABASES)
 
 ###### *Please click the link for Narrative*
 [DATABASES](https://github.com/brecatlin/ePortfolio/blob/main/NARRATIVES/3_DATABASES.docx)
+
+
